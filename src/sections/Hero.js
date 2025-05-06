@@ -16,7 +16,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <ProfileCircle>
-            <ProfileImage src="/assets/profile.jpg" alt="Julia Shvartsman" />
+            <ProfileImage src="/assets/julia.jpg" alt="Julia Shvartsman" />
           </ProfileCircle>
         </motion.div>
         
