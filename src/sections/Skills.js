@@ -4,13 +4,6 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
 const skillsData = {
-  design: [
-    "UI/UX Design",
-    "Wireframing & Prototyping",
-    "Visual Design",
-    "Adobe Creative Suite",
-    "Figma"
-  ],
   dataScience: [
     "Python",
     "R",
@@ -60,21 +53,6 @@ const Skills = () => {
           viewport={{ once: true, amount: 0.1 }}
         >
           <SkillsGrid>
-            <motion.div variants={itemVariants}>
-              <SkillCategory>
-                <CategoryHeading>Design</CategoryHeading>
-                <SkillsList>
-                  {skillsData.design.map((skill, index) => (
-                    <SkillItem key={index}>
-                      <SkillName>{skill}</SkillName>
-                      <SkillBar>
-                        <SkillProgress width={`${85 - index * 5}%`} />
-                      </SkillBar>
-                    </SkillItem>
-                  ))}
-                </SkillsList>
-              </SkillCategory>
-            </motion.div>
             
             <motion.div variants={itemVariants}>
               <SkillCategory>
