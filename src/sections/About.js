@@ -18,8 +18,8 @@ const About = () => {
             >
               <AboutText>
                 <p>Hello! I'm Julia, a passionate designer and data scientist with a love for creating beautiful, functional solutions to complex problems.</p>
-                <p>With a background in [Your Background], I combine analytical thinking with creative design to deliver unique projects that stand out.</p>
-                <p>When I'm not coding or designing, you can find me [Your Hobbies/Interests].</p>
+                <p>With a background in ..., I combine analytical thinking with creative design to deliver unique projects that stand out.</p>
+                <p>When I'm not coding or designing, you can find me dancing or hiking outdoors.</p>
               </AboutText>
             </motion.div>
           </AboutTextContainer>
@@ -31,7 +31,7 @@ const About = () => {
               transition={{ duration: 0.8 }}
               viewport={{ once: true, amount: 0.3 }}
             >
-              <AboutImage src="/assets/about-image.jpg" alt="About Me" />
+              <AboutImage src="/assets/julia.jpg" alt="About Me" />
             </motion.div>
           </AboutImageContainer>
         </AboutContent>

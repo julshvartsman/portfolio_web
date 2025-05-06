@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const skillsData = {
   dataScience: [
     "Python",
-    "R",
+    "Data Cleaning",
     "Machine Learning",
     "Data Visualization",
     "Statistical Analysis"
