@@ -37,8 +37,7 @@ const Contact = () => {
       return;
     }
     
-    // Here you would typically integrate with a form submission API like Formspree or EmailJS
-    // For now, let's simulate a successful submission
+   
     
     setFormStatus({
       submitted: true,
@@ -129,13 +128,13 @@ const Contact = () => {
             viewport={{ once: true, amount: 0.3 }}
           >
             <SocialLinks>
-              <SocialLink href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">
+              <SocialLink href="https://github.com/julshvartsman" target="_blank" rel="noopener noreferrer">
                 <FaGithub />
               </SocialLink>
               <SocialLink href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">
                 <FaLinkedinIn />
               </SocialLink>
-              <SocialLink href="mailto:your.email@example.com">
+              <SocialLink href="julia_shvartsman@berkeley.edu">
                 <FaEnvelope />
               </SocialLink>
               <SocialLink href="https://twitter.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">
