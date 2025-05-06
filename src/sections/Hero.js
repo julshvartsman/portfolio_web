@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
+import profileImage from '../assets/julia.jpg';
 
 const Hero = () => {
   return (
@@ -16,7 +17,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <ProfileCircle>
-            <ProfileImage src="/assets/julia.jpg" alt="Julia Shvartsman" />
+                <ProfileImage src={profileImage} alt="Julia Shvartsman" />
           </ProfileCircle>
         </motion.div>
         
